@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Launcher for s-chess (SIMPLE evaluation + PST).
+set -euo pipefail
+cd "$(dirname "$0")/.."
+EVALUATION_MODE=SIMPLE exec .venv/bin/python -u main.py "$@"

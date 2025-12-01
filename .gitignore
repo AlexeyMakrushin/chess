@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.pgn
+!games/*.pgn
+*.npz
+*.pth
+data/
+models/
+.DS_Store

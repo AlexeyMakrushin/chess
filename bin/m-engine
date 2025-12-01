@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Launcher for m-chess (CUSTOM_NN evaluation with trained MLP).
+set -euo pipefail
+cd "$(dirname "$0")/.."
+EVALUATION_MODE=CUSTOM_NN exec .venv/bin/python -u main.py "$@"
